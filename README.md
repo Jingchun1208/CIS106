@@ -1,1 +1,1 @@
-# CIS106
+Jingchun Yan
