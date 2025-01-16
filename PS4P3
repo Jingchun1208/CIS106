@@ -7,6 +7,7 @@ total_cost = number_of_books * cost_per_book
 if total_cost > 50.00:
   shipping_charge = 0.00
 else: shipping_charge = 25.00
+
 order_total =total_cost + shipping_charge
 
 #output phase
