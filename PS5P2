@@ -10,6 +10,7 @@ elif part_number == "99":
 elif part_number == "80" or part_number == "70":
   unit_cost = 3
 else: unit_cost = 5.00
+
 total_cost = quantity * unit_cost
 
 #output phase
