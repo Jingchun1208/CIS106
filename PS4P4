@@ -6,6 +6,7 @@ cost_of_appliance = float(input("Enter cost of appliance"))
 if cost_of_appliance > 1000.00:
   warrantee_cost = 0.10 * cost_of_appliance
 else: warrantee_cost = 0.05 * cost_of_appliance 
+
 total = cost_of_appliance + warrantee_cost
 
 #output phase
