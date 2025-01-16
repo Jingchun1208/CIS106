@@ -7,6 +7,7 @@ if quantity_of_widgets >10000:
 elif 5000 <= quantity_of_widgets <= 10000:
   price = 20.00
 else: price = 30.00
+
 extended_price = quantity_of_widgets * price 
 tax = extended_price * 0.7
 total = extended_price + tax
