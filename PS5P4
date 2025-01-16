@@ -9,6 +9,7 @@ elif 10 < quantity < 24:
 elif 5 < quantity < 9:
   price_per_ticket = 70.00
 else: price_per_ticket = 75.00
+
 total_cost = quantity * price_per_ticket
 
 #output phase
