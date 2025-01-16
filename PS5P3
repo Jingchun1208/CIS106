@@ -10,6 +10,7 @@ elif 50000.00 < principle < 100000.00 and years_to_maturity == 10:
 elif 50000.00 < principle < 100000.00 and years_to_maturity == 5:
   interest_rate = 0.04
 else: interest_rate = 0.02
+
 first_year_interest = principle * interest_rate
 
 #output phase
