@@ -18,8 +18,7 @@ def remove_value(number_list):
     number_list.remove(800)
 
 def remove_value_from_list2(number_list):
-    number_list.remove(700)  # Assuming you meant to remove a specific value here
-
+    number_list.remove(700)  
 def display(number_list):
     for z in number_list:
         print(z)
@@ -65,8 +64,6 @@ def backwards(players, players2):
     w = reversed(players)
     print(list(w))
 
-
-# Running the code for each function in sequence
 number_list = []
 number_list = add_numbers_to_list1(number_list)
 add_numbers_to_list2(number_list)
@@ -77,7 +74,6 @@ add_numbers_to_list4(number_list, number_list2)
 
 remove_value(number_list)
 
-# Add additional code to remove a specific value, like 800
 remove_value_from_list2(number_list)
 
 display(number_list)
